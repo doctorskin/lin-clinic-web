@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Paper Achievements - 林俞志醫師</title>
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --accent-color: #3498db;
+            --text-dark: #333;
+            --highlight-red: #e74c3c;
+            --highlight-green: #27ae60;
+        }
+
+        body {
+            font-family: "PingFang TC", "Microsoft JhengHei", sans-serif;
+            line-height: 1.7;
+            color: var(--text-dark);
+            margin: 0;
+            background-color: #fff;
+        }
+
+        /* 1. 實景大圖：置頂並固定高度，展現真實研究環境 */
+        .hero-banner {
+            width: 100%;
+            height: 400px; /* 您可以根據喜好調整高度 */
+            background-image: url('image_f8500d.jpg');
+            background-size: cover;
+            background-position: center;
+            box-shadow: inset 0 0 100px rgba(0,0,0,0.2);
+            border-bottom: 5px solid var(--primary-color);
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        header h1 {
+            color: var(--primary-color);
+            font-size: 2.2rem;
+            margin: 0;
+            padding-bottom: 10px;
+        }
+
+        header .sub-title {
+            color: #666;
+            font-size: 1rem;
+            border-top: 1px solid #ddd;
+            display: inline-block;
+            padding-top: 10px;
+            margin-top: 10px;
+        }
+
+        /* 2. 試管小圖區塊：作為論文清單的精緻入口 */
+        .publication-header {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            background-color: #f8f9fa;
+            padding: 12px 20px;
+            border-radius: 6px;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+
+        .publication-header img {
+            width: 45px;
+            height: 45px;
+            border-radius: 4px;
+            object-fit: cover;
+            border: 1px solid #eee;
+        }
+
+        .publication-header h2 {
+            font-size: 1.3rem;
+            color: var(--primary-color);
+            margin: 0;
+        }
+
+        /* 論文清單樣式 */
+        .pub-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .pub-item {
+            margin-bottom: 22px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #f0f0f0;
+            font-size: 1.05rem;
+        }
+
+        .pub-number {
+            font-weight: bold;
+            color: var(--accent-color);
+            margin-right: 12px;
+        }
+
+        /* 專業標籤 */
+        .badge {
+            display: inline-block;
+            padding: 2px 8px;
+            border-radius: 3px;
+            font-size: 0.8rem;
+            font-weight: bold;
+            margin-left: 8px;
+            vertical-align: middle;
+        }
+
+        .cover-paper { background: var(--highlight-red); color: white; }
+        .senior-author { background: var(--highlight-green); color: white; }
+
+        .footer-nav {
+            text-align: center;
+            margin-top: 50px;
+            padding-bottom: 40px;
+        }
+
+        .btn-back {
+            text-decoration: none;
+            color: #888;
+            font-size: 0.95rem;
+            border: 1px solid #ddd;
+            padding: 8px 25px;
+            border-radius: 20px;
+            transition: 0.3s;
+        }
+
+        .btn-back:hover {
+            background: var(--primary-color);
+            color: white;
+            border-color: var(--primary-color);
+        }
+
+        @media (max-width: 600px) {
+            .hero-banner { height: 250px; }
+            header h1 { font-size: 1.6rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="hero-banner"></div>
+
+    <div class="container">
+        
+        <header>
+            <h1>Professional Paper Achievements</h1>
+            <div class="sub-title">醫學 SCI 國際期刊論文表列</div>
+        </header>
+
+        <div class="publication-header">
+            <img src="DSCN2252.jpg" alt="Lab Detail">
+            <h2>期刊論文著作表列</h2>
+        </div>
+
+        <ul class="pub-list">
+            <li class="pub-item"><span class="pub-number">1.</span><strong>林俞志</strong>, 蔡呈芳. 毛囊皮脂腺囊狀錯構瘤——病例報告. 中華皮膚醫學雜誌 2000; 18: 341-345.</li>
+            <li class="pub-item"><span class="pub-number">2.</span><strong>林俞志</strong>, 蔡呈芳, 蕭正祥. 單發性毛盤瘤—病例報告及文獻回顧. 中華皮膚醫學雜誌 2000; 18: 346-349.</li>
+            <li class="pub-item"><span class="pub-number">3.</span><strong>林俞志</strong>, 陳昭旭, 邱顯清. 蜂窩組織炎樣之遊走型結節性紅斑—病例報告. 中華皮膚醫學雜誌 2001; 19: 063-067.</li>
+            <li class="pub-item"><span class="pub-number">4.</span>邱政偉, <strong>林俞志</strong>, 王綺嫻, 邱顯清. 全身紅斑性狼瘡病人之皮膚 <em>Mycobacterium kansasii</em> 感染：藉由基因鑑定和型態鑑定診斷. 中華皮膚醫學雜誌 2003; 21: 160-164.</li>
+            <li class="pub-item"><span class="pub-number">5.</span><strong>Lin YC</strong>, Chu CY, Chiu HC. Acrokeratosis paraneoplastica (Bazex's syndrome): unusual association with a peripheral T-cell lymphoma. <em>Acta Dermato-Venereologica</em>. 2001; <strong>81</strong>:440-441.</li>
+            <li class="pub-item"><span class="pub-number">6.</span><strong>Lin YC</strong>, Chiu HC, Hsiao CH, Jee SH, Liao YH. Cutaneous <em>Mycobacterium fortuitum</em> Infection Mimicking Lupus Vulgaris. <em>British Journal of Dermatology</em> 2002; <strong>147</strong>: 170-173. <span class="badge cover-paper">當期封面論文</span></li>
+            <li class="pub-item"><span class="pub-number">7.</span><strong>Lin YC</strong>, Tsai TF, Cutaneous Metaplastic Synovial Cyst: Unusual Presentation with "A Bag of Worms". <em>Dermatologic Surgery</em> 2003; <strong>29</strong>, 198-200.</li>
+            <li class="pub-item"><span class="pub-number">8.</span><strong>Lin YC</strong>, Chiu HC, Sun CC, Chu CY. Telangiectatic Pacemaker Erythema. <em>Clinical and Experimental Dermatology</em>. 2003; <strong>28</strong>:447-448.</li>
+            <li class="pub-item"><span class="pub-number">9.</span><strong>Lin YC</strong>, Chan ML, Ko CW and Hsieh MY. Nail Infestation by <em>Liposcelis bostrychophila</em> Badonnel. <em>Clinical and Experimental Dermatology</em>. 2004; <strong>29</strong>:620-621. <span class="badge cover-paper">當期封面論文</span></li>
+            <li class="pub-item"><span class="pub-number">10.</span>Li HH, <strong>Lin YC</strong>, Chen PJ, Hsiao CH, Lee JYY, Chen WC, Tzung TY, Wu JC, and Chan MS. Interleukin-19 upregulates keratinocyte growth factor and is associated with psoriasis. <em>British Journal of Dermatology</em>. 2005; <strong>153</strong>:591-595.</li>
+            <li class="pub-item"><span class="pub-number">11.</span>Wei CC, Chen WY, Wang YC, Chen PJ, Lee JY, Wong TW, Chen WC, Wu JC, Chen GY, Chang MS, <strong>Lin YC</strong>. Detection of IL-20 and its receptors on psoriatic skin. <em>Clin Immunol</em>. 2005 Oct; 117(1):65-72. <span class="badge senior-author">Senior Author</span></li>
+            <li class="pub-item"><span class="pub-number">12.</span><strong>Lin YC</strong>, Lin YC, Onychotillomania, Major Depressive Disorder and Suicide. <em>Clinical and Experimental Dermatology</em>. 2006 31(4):597-599.</li>
+        </ul>
+
+        <div class="footer-nav">
+            <a href="index.html" class="btn-back">← 返回診所首頁</a>
+        </div>
+    </div>
+
+</body>
+</html>
